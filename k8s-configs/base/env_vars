@@ -48,17 +48,17 @@ KNOWN_HOSTS_CLUSTER_STATE_REPO="|1|8umo7AbVkvMp2JZITMJgzMK1X0k=|HSZrBFTgbf/pXy33
 
 CLUSTER_STATE_REPO_URL=https://github.com/pingidentity/ping-cloud-base
 CLUSTER_STATE_REPO_PATH=${REGION_NICK_NAME}
-CLUSTER_STATE_REPO_BRANCH=test
+CLUSTER_STATE_REPO_BRANCH=stage
 
 ############################################################
 # Environment-specific variables
 ############################################################
 # Used by server profile hooks
-ENVIRONMENT_TYPE=test
+ENVIRONMENT_TYPE=stage
 
 # Used by Kubernetes manifests
-ENV=test
-KUSTOMIZE_BASE=test
+ENV=stage
+KUSTOMIZE_BASE=prod/x-small
 
 ############################################################
 # Lets Encrypt server
@@ -72,10 +72,10 @@ PF_PD_BIND_PORT=1389
 PF_PD_BIND_PROTOCOL=ldap
 PF_PD_BIND_USESSL=false
 
-PF_MIN_HEAP=1536m
-PF_MAX_HEAP=1536m
-PF_MIN_YGEN=768m
-PF_MAX_YGEN=768m
+PF_MIN_HEAP=3072m
+PF_MAX_HEAP=3072m
+PF_MIN_YGEN=1536m
+PF_MAX_YGEN=1536m
 
 ############################################################
 # PingAccess variables for environment
@@ -95,8 +95,8 @@ PA_GCOPTION=-XX:+UseParallelGC
 ############################################################
 # Cluster name variables
 ############################################################
-CLUSTER_NAME=test
-CLUSTER_NAME_LC=test
+CLUSTER_NAME=stage
+CLUSTER_NAME_LC=stage
 
 ############################################################
 # DNS zones
