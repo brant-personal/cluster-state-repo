@@ -48,16 +48,16 @@ KNOWN_HOSTS_CLUSTER_STATE_REPO="|1|8umo7AbVkvMp2JZITMJgzMK1X0k=|HSZrBFTgbf/pXy33
 
 CLUSTER_STATE_REPO_URL=https://github.com/pingidentity/ping-cloud-base
 CLUSTER_STATE_REPO_PATH=${REGION_NICK_NAME}
-CLUSTER_STATE_REPO_BRANCH=dev
+CLUSTER_STATE_REPO_BRANCH=test
 
 ############################################################
 # Environment-specific variables
 ############################################################
 # Used by server profile hooks
-ENVIRONMENT_TYPE=dev
+ENVIRONMENT_TYPE=test
 
 # Used by Kubernetes manifests
-ENV=dev
+ENV=test
 KUSTOMIZE_BASE=test
 
 ############################################################
@@ -95,8 +95,8 @@ PA_GCOPTION=-XX:+UseParallelGC
 ############################################################
 # Cluster name variables
 ############################################################
-CLUSTER_NAME=dev
-CLUSTER_NAME_LC=dev
+CLUSTER_NAME=test
+CLUSTER_NAME_LC=test
 
 ############################################################
 # DNS zones
