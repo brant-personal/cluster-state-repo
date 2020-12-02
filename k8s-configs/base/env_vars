@@ -44,9 +44,9 @@ REGISTRY_NAME=docker.io
 # Cluster state repo details
 ############################################################
 # The known-hosts file to trust the cluster state repo server for git/ssh cloning
-KNOWN_HOSTS_CLUSTER_STATE_REPO="|1|gzJDdJv4EBFTV/wjCc7EsPr2Gvs=|VuJP/n1LLVCijyizbYp6RFhOggc= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ=="
+KNOWN_HOSTS_CLUSTER_STATE_REPO="|1|WGj8onZ4rIND5hpGbOb7ns4JCFk=|PRPcbhrlF92HgnbLiSLZ4PcW0ZU= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ=="
 
-CLUSTER_STATE_REPO_URL=https://github.com/pingidentity/ping-cloud-base
+CLUSTER_STATE_REPO_URL=git@github.com:brant-personal/cluster-state-repo.git
 CLUSTER_STATE_REPO_PATH=${REGION_NICK_NAME}
 CLUSTER_STATE_REPO_BRANCH=stage
 
